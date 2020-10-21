@@ -1,9 +1,10 @@
-﻿using System;
+﻿using MelonLoader;
+using System;
 using Harmony;
 using UnityEngine;
 
 namespace BreakDownCans {
-	internal class Patches {
+	internal class Patches : MelonMod {
 
 		private const string RECYCLED_CAN_NAME = "GAMEPLAY_RecycledCan";
 		private const string SCRAP_METAL_NAME = "GEAR_ScrapMetal";
